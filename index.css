@@ -1,0 +1,90 @@
+body {
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #a6b9efd1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.5rem 1.5rem;
+}
+
+.box {
+    border-radius: 1em;
+    max-width: 22rem;
+    background-color: white;
+}
+
+.hero {
+    max-width: 100%;
+    border-radius: 1em 1em 0 0;
+}
+
+h1 {
+    text-align: center;
+    color: #00000094;
+}
+
+.about {
+    text-align: center;
+    color: #00000094;
+    padding: 2em;
+}
+
+.buy {
+    background-color: #dfe6fb63;
+    margin: 0 2rem 0 2rem;
+    border-radius: 1em;
+    height: 5.1rem;
+}
+
+.icon-music {
+    margin: 1rem;
+    display: inline;
+    float: left;
+}
+
+.details{
+    display: inline;
+    list-style-type:none;
+}
+
+.plan {
+    margin-bottom: 0.6em;
+}
+
+.price {
+    margin-bottom: 5em;
+}
+
+.link {
+    float: right;
+    margin: 2rem 1rem 0 0;
+    text-decoration: none;
+    color: #61489dd1;
+}
+
+.pay {
+    text-align: center;
+    color: white;;
+    text-decoration: none;
+    background-color: #61489dd1;
+    padding: 1rem;
+    display: block;
+    margin: 1.5rem 2rem 1.5rem 2rem;
+    border-radius: 1em;
+    box-shadow: 1px 7px 2px #7e69af52;
+}
+
+.pay:hover {
+    opacity: 0.7;
+}
+
+.cancel {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 1.5rem 7rem 2rem 7rem;
+    padding: 1rem;
+}
